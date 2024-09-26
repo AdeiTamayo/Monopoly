@@ -33,15 +33,6 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
-         		 <groupId>org.apache.maven.plugins</groupId>
-         		 <artifactId>maven-surefire-plugin</artifactId>
-          		 <version>2.19.1</version>
-         		 <configuration>
-          		     <testFailureIgnore>true</testFailureIgnore>
-	   		    
-           		 </configuration>
-       		        </plugin>
 		</plugins>
 	</build>
 	<repositories>
@@ -51,16 +42,16 @@
 			<url>https://m2.objectdb.com</url>
 		</repository>
 	</repositories>
-
+	
 	<properties>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
-
-		<sonar.organization>jononekin</sonar.organization>
+		<sonar.organization>adeitamayo</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-		<sonar.projectKey>jononekin_monopolyci</sonar.projectKey>
-		<sonar.login>90a468852cc035e4be637130569e928051818a41</sonar.login>
+		<sonar.projectKey>adeitamayo_monopolyeuskara</sonar.projectKey>
+		<sonar.login>ad673ff5fd2add0bbe13a747e6f17b211402a866</sonar.login>
 	</properties>
+
 
 	<!-- https://mvnrepository.com/artifact/junit/junit -->
 	<dependencies>
